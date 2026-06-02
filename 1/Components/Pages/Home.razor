@@ -1,7 +1,12 @@
 ﻿@page "/"
-
+@inject NavigationManager NM
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
 
-Welcome to your new app.
+<form>
+<input placeholder="Логин">
+<input type="password" placeholder="Пароль">
+<button >Авторизоваться</button>
+<NavLink href="counter"> Зарегистрироваться</NavLink>
+</form>

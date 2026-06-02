@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\DemoExPrepare.csproj": {}
+    "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\1\\DemoExPrepare.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\DemoExPrepare.csproj": {
+    "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\1\\DemoExPrepare.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\DemoExPrepare.csproj",
+        "projectUniqueName": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\1\\DemoExPrepare.csproj",
         "projectName": "DemoExPrepare",
-        "projectPath": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\DemoExPrepare.csproj",
+        "projectPath": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\1\\DemoExPrepare.csproj",
         "packagesPath": "C:\\Users\\zhula\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\obj\\",
+        "outputPath": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zhula\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,6 +51,24 @@
               "target": "Package",
               "version": "[10.0.8, )",
               "autoReferenced": true
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.2, )"
             }
           },
           "imports": [
