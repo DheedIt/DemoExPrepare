@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9m+AUJyTYks=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\DemoExPrepare.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhula\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.8\\microsoft.aspnetcore.app.internal.assets.10.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
