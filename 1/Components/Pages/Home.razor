@@ -1,12 +1,32 @@
 ﻿@page "/"
 @inject NavigationManager NM
+
+@using Microsoft.AspNetCore.Identity
+@using Data
+@using Models
 <PageTitle>Home</PageTitle>
 
 <h1>Hello, world!</h1>
 
 <form>
-<input placeholder="Логин">
-<input type="password" placeholder="Пароль">
+<input @bind-value="_user.Login" placeholder="Логин">
+<input @bind-value="_user.PasswordHash" type="password" placeholder="Пароль">
 <button >Авторизоваться</button>
 <NavLink href="counter"> Зарегистрироваться</NavLink>
 </form>
+
+@code{
+    private User _user = new();
+
+    private void OnSubmit()
+    {
+        var user = new User
+        {
+            Login = _user.Login,
+            PasswordHash = _user.PasswordHash
+        };
+        var hasher = new PasswordHasher<User>();
+        _user.PasswordHash = hasher.HashPassword(user, user.PasswordHash);
+
+    }
+}
