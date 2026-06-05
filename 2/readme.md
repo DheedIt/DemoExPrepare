@@ -16,6 +16,10 @@
 3. Создаем blazor проект ![alt text](image-3.png)
 4. Проверка работоспособности ![alt text](image-4.png) (Почему dotnet watch? - Он отслеживает изменения и сразу отрисовывает изменения)
 5. Подключение пакетов.
+dotnet package add Microsoft.EntityFrameworkCore --version Ваша версия
+dotnet package add Microsoft.EntityFrameworkCore.Design --version Ваша версия
+dotnet package add Pomelo.EntityFrameworkCore.MySql --version Ваша версия (Как я понимаю заканчивается на .0.0 Пример: 9.0.0)
+dotnet tool install dotnet-ef --version Ваша версия (По версиям так же с командой выше)
 5.1. Обязательно смотрим версию dotnet для пакетов ![alt text](image-5.png)
 5.2. Устанавливаем пакеты указывая версию dotnet ![alt text](image-6.png)
 5.3. Обязательно проверяем результаты скачивания пакета. Результат обычно в конце  ![alt text](image-7.png)
