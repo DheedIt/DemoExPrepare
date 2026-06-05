@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "koPG/am9q98=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zhula\\source\\repos\\DemoExamShoeShop\\DemoExamShoeShop.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhula\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.8\\microsoft.aspnetcore.app.internal.assets.10.0.8.nupkg.sha512",
+    "C:\\Users\\zhula\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.3\\microsoft.entityframeworkcore.10.0.3.nupkg.sha512",
+    "C:\\Users\\zhula\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.3\\microsoft.entityframeworkcore.abstractions.10.0.3.nupkg.sha512",
+    "C:\\Users\\zhula\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.3\\microsoft.entityframeworkcore.analyzers.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
