@@ -1,7 +1,10 @@
 using DemoExamShoeShop.Components;
+using DemoExamShoeShop.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContextFactory<AppDbContext>(o => o.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
