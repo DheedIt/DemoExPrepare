@@ -101,11 +101,10 @@
    }
    ```
 
-8. **Выполняем миграцию**
+8. **Генерируем модели из БД (scaffold)**
 
    ```bash
-   dotnet ef migrations add InitialCreate
-   dotnet ef database update
+   dotnet ef dbcontext scaffold "server=localhost;user=root;password=;database=<db_name>" Pomelo.EntityFrameworkCore.MySql --context AppDbContext --context-dir Data --output-dir Models --use-database-names --no-onconfiguring
    ```
 
-   ![Миграция](image-14.png)
+   ![Scaffold](image-14.png)
