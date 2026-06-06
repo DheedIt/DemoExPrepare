@@ -1,5 +1,37 @@
-﻿@page "/"
+﻿@rendermode InteractiveServer
+@using Microsoft.EntityFrameworkCore
+@using Data
+@using Models
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+@inject IDbContextFactory<AppDbContext> Factory
+@inject ProtectedSessionStorage SessionStorage
+@inject NavigationManager NavigationManager
+@page "/"
+
 
 <PageTitle>Home</PageTitle>
+<div>
+    <InputText @bind-Value="userModel.Login" placeholder="Логин"/>
+    <InputText @bind-Value="userModel.Password" placeholder="Пароль" type="password" />
+    <button type="submit" @onclick="LogIn">Войти</button>
+</div>
+<div >@ErrorMessage</div>
+@code{
+    private User userModel = new();
+    private string ErrorMessage = string.Empty;
 
-dfafawfewfesfg
+    private async void LogIn()
+    {
+        var context = Factory.CreateDbContext();
+        var user = context.Users.Where(u => u.Login == userModel.Login && u.Password == userModel.Password).FirstOrDefault();
+        if (user != null)
+        {
+            ErrorMessage = "Неверный логин или пароль!";
+        }
+        else
+        {
+            await SessionStorage.SetAsync("User", user);
+            NavigationManager.NavigateTo("/counter");
+        }
+    }
+}

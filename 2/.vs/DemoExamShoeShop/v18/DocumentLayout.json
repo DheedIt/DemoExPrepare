@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EEAD1C88-77F5-43EA-3679-BB561F8FFB32}|DemoExamShoeShop.csproj|c:\\users\\zhula\\source\\repos\\demoexprepare\\2\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{EEAD1C88-77F5-43EA-3679-BB561F8FFB32}|DemoExamShoeShop.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEAD1C88-77F5-43EA-3679-BB561F8FFB32}|DemoExamShoeShop.csproj|c:\\users\\zhula\\source\\repos\\demoexprepare\\2\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EEAD1C88-77F5-43EA-3679-BB561F8FFB32}|DemoExamShoeShop.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEAD1C88-77F5-43EA-3679-BB561F8FFB32}|DemoExamShoeShop.csproj|c:\\users\\zhula\\source\\repos\\demoexprepare\\2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEAD1C88-77F5-43EA-3679-BB561F8FFB32}|DemoExamShoeShop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +31,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "readme.md",
+              "DocumentMoniker": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\2\\readme.md",
+              "RelativeDocumentMoniker": "readme.md",
+              "ToolTip": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\2\\readme.md",
+              "RelativeToolTip": "readme.md",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-06T17:01:05.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\2\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\2\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-06T16:27:26.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T20:05:04.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\zhula\\source\\repos\\DemoExPrepare\\2\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

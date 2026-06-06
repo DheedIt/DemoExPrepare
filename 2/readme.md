@@ -111,4 +111,7 @@
 
 
 Работа с кодом
-1. 
+1. Регестрируем строку подлкючения и добавляем контекст ![alt text](image-15.png).
+2. Идем в домашнюю страницу [fdsf](/Components/Pages//Home.razor)
+3. Регистрируем контекст (@inject IDbContextFactory<AppDbContext> Factory) предварительно подключив пространства имен Models, Data и Microsoft.EntityFrameworkCore
+4. Прописываем минимальный код авторизации  ![alt text](image-16.png)
